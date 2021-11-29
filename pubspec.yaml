@@ -1,0 +1,55 @@
+name: mantools
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  avatar_glow: ^2.0.2
+  cached_network_image: ^3.1.0+1
+  carousel_slider: 4.0.0
+  cloud_firestore: ^3.1.0
+  cupertino_icons: ^1.0.2
+  firebase_auth: 3.2.0
+  firebase_core: 1.10.0
+  flutter:
+    sdk: flutter
+  flutter_facebook_auth: ^3.5.6
+  get: 4.3.8
+  get_storage: 2.0.3
+  google_fonts: 2.1.0
+  google_sign_in: 5.2.1
+  introduction_screen: 2.1.0
+  lottie: ^1.2.1
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+  lints: 1.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/models/
+    - assets/images/
+    - assets/logos/google.png
+    - assets/logos/facebook.png
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+        - asset: assets/fonts/PlusJakartaSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-MediumItalic.ttf
+          style: italic
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSans-BoldItalic.ttf
+          style: italic
+          weight: 700

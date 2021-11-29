@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "882626345733",
+    "project_id": "mantools-ummi",
+    "storage_bucket": "mantools-ummi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882626345733:android:d2ac6b24c573d90d70d56c",
+        "android_client_info": {
+          "package_name": "com.ummi.mantools"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882626345733-klu806spct6imqbdqau7tuatvlt56je9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ummi.mantools",
+            "certificate_hash": "b0d863154af5c986e28b8d6ba32ceb5d4b8bf4ac"
+          }
+        },
+        {
+          "client_id": "882626345733-fnfim902hfcoovsj13h8sccs0p76so65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9R6Nads58L95Bu7DnXJ0pHxI3uDOqUYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882626345733-fnfim902hfcoovsj13h8sccs0p76so65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
